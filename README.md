@@ -8,12 +8,12 @@ The internship focuses on building **Green Skills through Artificial Intelligenc
 
 ---
 
-## 💡 Project Title  
+## Project Title  
 **OceanGuardAI – AI-Powered Water Quality Monitoring System**
 
 ---
 
-## 🧩 Problem Statement  
+##  Problem Statement  
 
 Water pollution continues to be one of the biggest environmental concerns worldwide. Contaminated water sources affect marine ecosystems, human health, and biodiversity.  
 Recently, cases like the **brain-eating amoeba infection (Naegleria fowleri)** reported in Kerala have drawn attention to the **urgent need for early detection of unsafe water** conditions.  
@@ -23,7 +23,7 @@ There is a lack of **AI-driven, image-based detection systems** that can provide
 
 ---
 
-## 🚀 Project Proposal  
+##  Project Proposal  
 
 The goal of this project is to develop an **AI-based image classification model** using **Convolutional Neural Networks (CNNs)** that can automatically detect and classify **water quality conditions** from images.  
 
@@ -42,11 +42,11 @@ The model will be integrated into a **Streamlit web application**, where users c
 
 ---
 
-## 🧠 Dataset Information  
+##  Dataset Information  
 
 The project uses **freely available and easy-to-access datasets** from **Kaggle**.
 
-### 📂 Datasets Used  
+###  Datasets Used  
 1. **Water Pollution Dataset** – Kaggle  
    🔗 [https://www.kaggle.com/datasets/adityapandey360/water-pollution-dataset](https://www.kaggle.com/datasets/adityapandey360/water-pollution-dataset)  
    → Contains labeled images of clean and polluted water surfaces.  
