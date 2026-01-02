@@ -61,4 +61,4 @@ The system is integrated into a **Streamlit web app**, allowing users to:
 ---
 
 ## License
-© 2025 AquaSense AI • For educational and research purposes.
+© 2025 OceanGuard AI • For educational and research purposes.
