@@ -1,64 +1,76 @@
-# OceanGuard-AI
-AI-powered underwater monitoring system that detects debris and algae using YOLOv8 and provides a water pollution severity score.
 
----
+# 🌊 OceanGuard-AI
 
-## Project Overview
-OceanGuard-AI automatically detects underwater debris and algae to assess water quality.  
-It provides:
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-Object%20Detection-orange)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red)
+![License](https://img.shields.io/badge/License-Educational-green)
 
-- Detection of plastics, nets, bottles, and algae  
-- Pollution severity scoring: Low, Moderate, High, Critical  
-- Annotated images with bounding boxes  
-- Analytical tables with counts, confidence, and impact  
-- Interactive map of analyzed sites  
+An AI-powered underwater monitoring system that detects debris and algae to assess water quality and pollution levels in real-time.
 
----
+## 📖 Project Overview
 
-## Internship Information
-This project is developed as part of the **Shell–Edunet Skills4Future AICTE Internship**, organized by **Edunet Foundation** in collaboration with **AICTE** and **Shell**.  
-The internship focuses on building **Green Skills through Artificial Intelligence (AI)**, empowering students to create innovative and sustainable solutions for real-world environmental challenges.
+Water pollution and underwater debris are major environmental concerns affecting marine ecosystems and human health. Manual inspection is slow and resource-intensive. **OceanGuard-AI** provides an automated, image-based solution using **YOLOv8** to detect underwater debris and algae, delivering instant ecological insights and actionable water quality metrics.
 
----
+## ✨ Key Features
 
-## Problem Statement
-Water pollution and underwater debris are major environmental concerns affecting marine ecosystems and human health.  
-Manual inspection and chemical testing are slow, resource-intensive, and cannot scale efficiently.  
-There is a need for an **AI-driven, image-based system** that can detect underwater debris and algae automatically, providing real-time insights into water quality.
+- **Automated Object Detection:** Identifies plastic waste (bottles, bags, nets) and algae species.
+- **Pollution Severity Scoring:** Calculates a pollution index classifying water as Low, Moderate, High, or Critical.
+- **Interactive Web Interface:** A Streamlit-based dashboard for easy image uploading and analysis.
+- **Visual Analytics:** Outputs annotated images with bounding boxes, confidence scores, and analytical tables summarizing object counts and impact.
+- **Geospatial Tracking:** Includes an interactive map to visualize monitored sites and pollution hotspots.
 
----
+## 🛠️ Tech Stack
 
-## Project Proposal
-The goal is to develop an **AI-based system** using **YOLOv8** to detect and classify underwater debris and algae, providing actionable ecological insights:
+- **Machine Learning:** YOLOv8 (Ultralytics) for Convolutional Neural Network (CNN) based object detection.
+- **Frontend / UI:** Streamlit
+- **Language:** Python
 
-- Plastic waste (bottles, bags, nets, etc.)  
-- Algae species  
-- Hazardous or polluted water conditions  
+## 🚀 Getting Started
 
-The system is integrated into a **Streamlit web app**, allowing users to:
+Follow these steps to run OceanGuard-AI on your local machine.
 
-- Upload underwater images  
-- Get instant detection results with **bounding boxes**  
-- Receive a **pollution/severity index**  
-- Visualize monitored sites on an interactive map  
+### Prerequisites
+Make sure you have Python installed. It is recommended to use a virtual environment.
 
----
+### Installation
+1. Clone the repository:
+   ```bash
+     git clone https://github.com/nowsheen19jahan/OceanGuard-AI.git
+      cd OceanGuard-AI
 
-## Progress
-- YOLOv8 models for underwater debris and algae detection are trained and ready.  
-- Streamlit app is implemented for image upload, detection visualization, and pollution index calculation.  
-- Sidebar controls allow setting detection mode, confidence threshold, and IoU threshold.  
-- Analytical tables summarize counts, confidence, and impact of detected objects.  
-- Interactive map visualizes multiple monitoring sites and pollution levels.  
+    ```
+  
+2. Install the required dependencies:
+  ```bash
+    pip install -r requirements.txt
+  
+  ```
 
----
 
-## Future Enhancements
-- Improve algae detection accuracy and coverage.  
-- Integrate multiple sample sites for aggregated pollution reporting.  
-- Enhance visualization of pollution hotspots on interactive maps.  
 
----
+### Running the App
 
-## License
-© 2025 OceanGuard AI • For educational and research purposes.
+Start the Streamlit application by running:
+
+```bash
+     streamlit run app.py
+
+```
+
+*The app will automatically open in your default web browser.*
+
+## 📈 Future Enhancements
+
+* Improve algae detection accuracy and coverage across diverse underwater environments.
+* Integrate multiple sample sites for aggregated, large-scale pollution reporting.
+* Enhance visualization of pollution hotspots on interactive maps.
+
+## 🎓 About the Project
+
+This project was developed as part of the **Shell–Edunet Skills4Future AICTE Internship**, organized by **Edunet Foundation** in collaboration with **AICTE** and **Shell**. The internship focuses on building *Green Skills through Artificial Intelligence (AI)*, empowering students to create innovative and sustainable solutions for real-world environmental challenges.
+
+## 📜 License
+
+© 2025 [OceanGuard AI](https://github.com/nowsheen19jahan/OceanGuard-AI) • For educational and research purposes.
+
